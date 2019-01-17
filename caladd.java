@@ -8,7 +8,8 @@ public class caladd {
 
 		do {
 			System.out.print("1. Add two numbers: \n");
-			System.out.print("2. Exit\n\n");
+			System.out.print("2. Subtract two numbers: \n");
+			System.out.print("3. Exit\n\n");
 			choice = scan.next().charAt(0);
 			switch(choice) {
 				case '1': System.out.print("Enter two numbers: ");
